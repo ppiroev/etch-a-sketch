@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+}
+
+.bod {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+}
+
+
+.square {
+    border: 1px solid black;
+    margin: 1px;
+    flex-shrink: 1;
+    max-width: 100%;
+
+}
+
+.hover {
+    background-color: black;
+}
